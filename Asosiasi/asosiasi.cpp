@@ -63,7 +63,6 @@ int main (){
     pasien* varPasien1 = new pasien("Andi");
     pasien* varPasien2 = new pasien("Budi");
    
-
     varDokter1->tambahPasien(varPasien1);
     varDokter1->tambahPasien(varPasien2);
     varDokter2->tambahPasien(varPasien1);
@@ -72,13 +71,11 @@ int main (){
     varPasien1->tambahDokter(varDokter2);
     varPasien2->tambahDokter(varDokter1);
 
-
     varDokter1->cetakPasien();
     varDokter2->cetakPasien();
     varPasien1->cetakDokter();
     varPasien2->cetakDokter();
    
-
     delete varDokter1;
     delete varDokter2;
     delete varPasien1;
