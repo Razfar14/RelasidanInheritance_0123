@@ -1,7 +1,7 @@
 #include <iostream>
+using namespace std;
 #ifndef JANTUNG_H
 #define JANTUNG_H
-using namespace std;
 
 class jantung {
 public:
@@ -13,5 +13,4 @@ public:
         cout << "jantung dimatikan\n";
     }
 };
-
 #endif
