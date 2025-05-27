@@ -1,6 +1,10 @@
+#include <iostream>
+#include <string>
+#include "jantung.h"
+using namespace std;
 #ifndef MANUSIA_H
 #define MANUSIA_H
-using namespace std;
+
 
 class manusia {
 public:
